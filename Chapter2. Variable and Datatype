@@ -1,0 +1,131 @@
+# Primarily these are the following data types in Python:
+# 1. Integers
+# 2. Floating point numbers
+# 3. Strings
+# 4. Booleans
+# 5. None    
+
+# • A variable name can contain alphabets, digits, and underscores.
+# • A variable name can only start with an alphabet and underscores.
+# • A variable name can’t start with a digit.
+# • No while space is allowed to be used inside a variable name.
+# Examples of a few variable names are: harry, one8, seven, _seven etc
+
+# arithmatic operation
+# Arithmetic Operators Examples
+
+# Addition (+)
+# a = 10
+# b = 5
+# add_result = a + b
+# print("Addition (a + b):", add_result)  # Output: 15
+
+# # Subtraction (-)
+# sub_result = a - b
+# print("Subtraction (a - b):", sub_result)  # Output: 5
+
+# # Multiplication (*)
+# mul_result = a * b
+# print("Multiplication (a * b):", mul_result)  # Output: 50
+
+# # Division (/)
+# div_result = a / b
+# print("Division (a / b):", div_result)  # Output: 2.0
+
+# # Floor Division (//)
+# floor_result = a // b
+# print("floor (a//b)", floor_result)
+
+
+#  assignment operator
+# a = 10
+# b = 5
+
+# # Simple assignment
+# c = a  # Assigns the value of 'a' to 'c'
+# print("Simple Assignment: c =", c)
+
+# # Addition assignment
+# a += b  # Equivalent to a = a + b
+# print("Addition Assignment (a += b): a =", a)
+
+# # Subtraction assignment
+# a -= b  # Equivalent to a = a - b
+# print("Subtraction Assignment (a -= b): a =", a)
+
+# # Multiplication assignment
+# a *= b  # Equivalent to a = a * b
+# print("Multiplication Assignment (a *= b): a =", a)
+
+# # Division assignment
+# a /= b  # Equivalent to a = a / b
+# print("Division Assignment (a /= b): a =", a)
+
+# # Floor division assignment
+# a //= b  # Equivalent to a = a // b
+# print("Floor Division Assignment (a //= b): a =", a)
+
+# # Modulus assignment
+# a %= b  # Equivalent to a = a % b
+# print("Modulus Assignment (a %= b): a =", a)
+
+
+# comparison operator
+# list1 = [1, 2, 3]
+# list2 = [1, 2, 4]
+# print("list1 =", list1, ", list2 =", list2)
+# print("list1 == list2:", list1 == list2)  # False because the lists are not identical
+# print("list1 != list2:", list1 != list2)  # True because the lists are different
+# print("list1 < list2:", list1 < list2)    # True because comparison checks elements in order
+
+
+
+# Logical Operators in Python
+
+# Variables for examples
+# x = 10
+# y = 20
+# z = 0
+
+# # AND operator: Returns True if both conditions are True
+# print("AND Operator Examples:")
+# print(x > 5 and y > 15)  # True and True -> True
+# print(x > 15 and y > 15)  # False and True -> False
+# print(x > 5 and z > 0)   # True and False -> False
+# print()
+
+# # OR operator: Returns True if at least one condition is True
+# print("OR Operator Examples:")
+# print(x > 5 or y > 15)   # True or True -> True
+# print(x > 15 or y > 15)  # False or True -> True
+# print(x > 15 or z > 0)   # False or False -> False
+# print()
+
+# # NOT operator: Reverses the result (True becomes False, False becomes True)
+# print("NOT Operator Examples:")
+# print(not (x > 5))       # not True -> False
+# print(not (x > 15))      # not False -> True
+# print(not (z > 0))       # not False -> True
+
+
+# input
+# a = int(input(" first num is:"))
+# b = int(input(" second num is:"))
+
+# print("the first num is :", a)
+# print("the second num is :", b)
+
+# print("addition of a+b", a+b)
+
+
+
+# type conversion
+# a = "2.2"
+# b = type(a)
+# print(b)
+
+
+# c = "2.2"
+# d = float(c)
+# e = type(d)
+# print(e)
