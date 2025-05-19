@@ -1,0 +1,50 @@
+# #dictionary is a connection of key-vakue pair,where key is immutable,means key must be unique.
+# #in above gorakh:100, gorakh is key and 100 is value.
+
+
+#creating dictionary:{}
+marks ={
+         "gorakh":100,  
+         "rohan":80,  
+         "raj":70,  
+}
+print(marks)
+
+# #u cannot access value by numbering but u can access them by key
+
+# print(marks["gorakh"])
+#                     #  methods
+# print(marks.items())
+# print(marks.keys())
+# print(marks.values())
+# print(marks.update({"gorakh":99}))
+# print(marks)
+# print(marks.get("gorakh"))# it give give none if specficed name is not there
+# print(marks["gorakh"])# it will give errror if specitced name is not there.
+
+# gorakh1 ={}# to make empty dictionaery
+
+#                              # SETS
+# gorakh1 ={}# to make empty dictionaery
+
+# s = set() # its is a empty set dont use {} for empty  set it will create dictionary.
+# s1 ={ 1,2,3} # its is collection of set
+
+# s2= {1,2,3,4,3,4}# set cannot take repited values
+# print(s2) 
+
+
+# s2.add(454)# method
+# print(s2,type(s2))
+# print(s2,type(s2))
+
+
+# s = {1,8,2,3}
+# s2= {1,2,3,4,3,4}
+# len(s)# Returns 4, the length of the set
+# s.remove(8)#Updates the set s and removes 8 from s.
+# s.pop() #Removes an arbitrary element from the set and return the element removed.
+# s.clear()#empties the set s.
+# print(s.union(s2))# Returns a new set with all items from both sets. {1,8,2,3,4}.
+# print(s.intersection(s2))#Return a set which contains only item in both sets {2,3}.
+
